@@ -3,5 +3,15 @@ h1 {
 }
 
 nav {
+  text-align: center;
+}
+
+li {
   display: inline-block;
+}
+
+a {
+  padding: 1.5em;
+  text-decoration: none;
+  font-family: sans-serif;
 }
