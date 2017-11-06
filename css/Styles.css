@@ -1,9 +1,96 @@
-h1 {
-  text-align: center;
+body {
+  background: linear-gradient(to right, #F4F4F4 0%,#F4F4F4 66.66%,#F4F4F4 66.66%,#373737 33.33%,#373737 66.66%);
+}
+
+#bannertext {
+  display: none;
+}
+
+#logo {
+  position:absolute;
+  width:70px;
+  height:70px;
+  left: 80px;
+  top: 20px;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: block;
+}
+
+a {
+  padding: 1.5em;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+#portrait {
+  position: absolute;
+  width:175px;
+  height:200px;
+  left: 25px;
+  top: 125px;
+}
+
+#maintext {
+  position:absolute;
+  width: 200px;
+  height:300px;
+  top:375px;
+  left: 20px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#img1 {
+  display: none;
+}
+
+#img2 {
+  display: none;
+}
+
+#img3 {
+  display: none;
+}
+
+#insta {
+  display: none;
+}
+
+#facebook {
+  display: none;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 500px){
+
+}
+
+@media screen and (min-width: 1000px){
+#bannertext {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 nav {
   text-align: center;
+  float: right;
+  margin-top: 3em;
+  margin-right: 3em;
 }
 
 li {
@@ -14,4 +101,96 @@ a {
   padding: 1.5em;
   text-decoration: none;
   font-family: sans-serif;
+  color: white;
 }
+
+#img1 {
+  width:450px;
+  height:300px;
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+#img2 {
+  width:470px;
+  height:600px;
+  position: absolute;
+  left: 500px;
+  top: 160px;
+}
+
+#img3 {
+  width:450px;
+  height:285px;
+  position:absolute;
+  top: 475px;
+  left: 27px;
+}
+
+#portrait {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  left: 1110px;
+  bottom: 210px;
+}
+
+#logo {
+  width:100px;
+  height:100px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+#insta {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 850px;
+  top: 48px;
+}
+
+#facebook {
+  position:absolute;
+  left: 925px;
+  top: 57px;
+}
+
+#banner {
+  position:absolute;
+  left: 200px;
+  top: 10px;
+}
+
+#maintext {
+  position: absolute;
+  left:1075px;
+  top:600px;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+}
+
+}
+
+/*#panelleft {
+  background-color: #4ABDAC;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+}
+
+#panelright {
+  background-color: #FC4A1A;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 987px;
+  width: 35%;
+}*/
