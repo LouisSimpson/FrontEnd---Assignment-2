@@ -2,20 +2,49 @@ body {
   background: linear-gradient(to right, #F4F4F4 0%,#F4F4F4 66.66%,#F4F4F4 66.66%,#373737 33.33%,#373737 66.66%);
 }
 
+
 #bannertext {
-  display: none;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 8%;
 }
+
+/*#menuburger {
+  position: absolute;
+  left:280px;
+  width:100px;
+  height:100px;
+  padding: none;
+}*/
 
 #logo {
   position:absolute;
   width:70px;
   height:70px;
-  left: 80px;
-  top: 20px;
+  left: 23%;
+  top: 4%;
+}
+
+#menu {
+  display: block;
+  color: white;
+  text-align: right;
+  margin-right:1.5em;
 }
 
 nav {
-  float: right;
+  display: none;
+  position:absolute;
+  left: 250px;
+}
+
+nav a {
+  display: block;
+  color: white;
+}
+
+.show-menu {
+  display: block;
 }
 
 li {
@@ -33,8 +62,8 @@ a {
   position: absolute;
   width:175px;
   height:200px;
-  left: 25px;
-  top: 125px;
+  left:12%;
+  top: 20%;
 }
 
 #maintext {
@@ -42,7 +71,7 @@ a {
   width: 200px;
   height:300px;
   top:375px;
-  left: 20px;
+  left: 30px;
 }
 
 p {
@@ -50,23 +79,43 @@ p {
 }
 
 #img1 {
-  display: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 285px;
+  top: 300px;
 }
 
 #img2 {
-  display: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 285px;
+  top: 450px;
 }
 
 #img3 {
-  display: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 285px;
+  top: 570px;
 }
 
 #insta {
-  display: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 75px;
+  top: 600px;
 }
 
 #facebook {
-  display: none;
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  left: 125px;
+  top: 610px;
 }
 
 
@@ -75,18 +124,24 @@ p {
 
 
 
-@media screen and (min-width: 500px){
 
-}
 
 @media screen and (min-width: 1000px){
+
 #bannertext {
   font-size: 50px;
   font-family: 'Oswald', sans-serif;
 
 }
 
+#maintext {
+  position:absolute;
+  width: 400px;
+  height:200px;
+}
+
 nav {
+  display: inline-block;
   text-align: center;
   float: right;
   margin-top: 3em;
@@ -109,7 +164,7 @@ a {
   height:300px;
   position: relative;
   left: 20px;
-  top: 150px;
+  top: 85px;
 }
 
 #img2 {
@@ -132,7 +187,7 @@ a {
   position: absolute;
   width: 350px;
   height: 400px;
-  left: 1110px;
+  left: 1090px;
   bottom: 210px;
 }
 
@@ -156,12 +211,15 @@ a {
   position:absolute;
   left: 925px;
   top: 57px;
+  width: 45px;
+  height: 50px;
 }
 
 #banner {
   position:absolute;
-  left: 200px;
-  top: 10px;
+  left: 150px;
+  top:-30px;
+  width: 1000px;
 }
 
 #maintext {
