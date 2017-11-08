@@ -1,12 +1,13 @@
 body {
-  background: linear-gradient(to right, #F4F4F4 0%,#F4F4F4 66.66%,#F4F4F4 66.66%,#373737 33.33%,#373737 66.66%);
+  background: linear-gradient(to right, #969599 0%,#969599 66.66%,#969599 66.66%,#373737 33.33%,#373737 66.66%);
 }
 
 
 #bannertext {
-  font-size: 20px;
-  margin-left: 15%;
-  margin-top: 12%;
+  /*font-size: 20px;*/
+  /*margin-left: 15%;*/
+  /*margin-top: 12%;*/
+  display: none;
 }
 
 #banner {
@@ -14,6 +15,22 @@ body {
   width: 70%;
   top: 15%;
   left: 3%;
+}
+
+#hirebtn {
+  position: absolute;
+  top: 67%;
+  left: 12%;
+  color: #221daf;
+  border-style:solid;
+  border-color:  orange;
+  font-family: monospace;
+  font-style:oblique;
+  border-radius: 7px;
+  /*background-color: green;*/
+  padding: .5em;
+
+
 }
 
 /*#menuburger {
@@ -48,7 +65,7 @@ nav {
 nav a {
   display: block;
   color: white;
-  padding:0.5em;
+  padding:1em;
 }
 
 .show-menu {
@@ -71,7 +88,7 @@ a {
   width:35%;
   height:25%;
   left:15%;
-  top: 23%;
+  top: 20%;
 }
 
 #maintext {
@@ -85,7 +102,7 @@ a {
 }
 
 #statement {
-  width:100%
+  display: none;
 }
 
 p {
@@ -120,7 +137,7 @@ p {
   position: absolute;
   width: 10%;
   height: 8%;
-  left: 20%;
+  left: 22%;
   top: 85%;
 }
 
@@ -128,8 +145,46 @@ p {
   position: absolute;
   width: 8%;
   height: 6%;
-  left: 30%;
+  left: 35%;
   top: 86%;
+}
+
+#intro {
+  font-size: 1.2em;
+  font-family: monospace;
+  color: white;
+}
+
+#typewriterid {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 60%;
+}
+
+.typewriter #typewritertext {
+  color: #221daf;
+  font-size: 1em;
+  font-family: monospace;
+  overflow:hidden;
+  border-right: .15em solid orange;
+  white-space:nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% { border-color: orange}
+
 }
 
 
@@ -146,11 +201,46 @@ body {
   overflow-y: hidden;
 }
 
-#bannertext {
-  font-size: 50px;
-  font-family: 'Oswald', sans-serif;
-  margin-top: 8%;
+#typewritertext{
+  display: none;
+}
 
+#hirebtn {
+  display: none;
+}
+
+#intro {
+  display: none;
+}
+
+#statement {
+  display: block;
+}
+
+#bannertext {
+  font-size: 70px;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: monospace;
+  display:inline;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+
+}
+
+.retroshadow {
+  color: #2c2c2c;
+      letter-spacing: .05em;
+      text-shadow:
+        4px 4px 0px #d5d5d5,
+        7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+#banner {
+  position:absolute;
+  width: 70%;
+  top:5%;
+  left: 15%;
 }
 
 #menu {
@@ -159,8 +249,10 @@ body {
 
 #maintext {
   position:absolute;
-  width: 30%;
-  height:20%;
+  width: 22%;
+  height:21%;
+  /*border: 3px solid white;*/
+  margin-left: 2.5%;
 }
 
 /*nav {
@@ -244,12 +336,7 @@ a {
   height: 6%;
 }
 
-#banner {
-  position:absolute;
-  left: 150px;
-  top:-30px;
-  width: 1000px;
-}
+
 
 #maintext {
   position: absolute;
