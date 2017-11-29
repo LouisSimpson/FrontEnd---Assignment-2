@@ -523,7 +523,7 @@ body {
 
 #statement {
   display: block;
-  position: relative;
+  position: absolute;
   width:85%;
   left: 12%;
   bottom: 10%;
@@ -552,7 +552,7 @@ body {
   position:absolute;
   width: 70%;
   top:5%;
-  left: 15%;
+  left: 20%;
 }
 
 #menu {
@@ -560,10 +560,11 @@ body {
 }
 
 #maintext {
-  position:relative;
+  position:absolute;
   width: 25%;
   height:200px;
-  left:10%;
+  left:70%;
+  top:75%;
 
 
 }
@@ -580,6 +581,7 @@ body {
   display: inline-block;
   margin-left: 12em;
   margin-top: 3em;
+  z-index:100;
 }
 
 li {
@@ -651,11 +653,7 @@ a {
 
 
 
-#maintext {
-  position: absolute;
-  left:1075px;
-  top:600px;
-}
+
 
 p {
   color: white;
@@ -670,13 +668,21 @@ p {
   margin-left: 2%;
 }
 
+#gitdesktop:hover {
+	border-radius:25%;
+}
+
 #dmudesktop {
   display:block;
   position: absolute;
-  left:23%;
-  bottom:45.5%;
+  left:22.8%;
+  bottom:51%;
   width:20%;
   height:210px;
+}
+
+#dmudesktop:hover {
+	border-radius:25%;
 }
 
 #github {
@@ -693,7 +699,7 @@ p {
 #gitaccount {
   display: block;
   position: absolute;
-  left:-8%;
+  left:-4%;
   text-decoration: underline;
 }
 
@@ -708,14 +714,26 @@ p {
   display: block;
   position: absolute;
   text-decoration: underline;
-  left: -8%;
+  left: -4%;
 }
 
 #wordpress {
   display: block;
   position: absolute;
   width: 19%;
-  top:27.3%;
+  top:26.8%;
+}
+
+#wordpress:hover {
+	border-radius:25%;
+}
+
+#wordpressmaintxt {
+	display: block;
+	position: absolute;
+	width: 90%;
+	top:10%;
+	
 }
 
 /*start of code for image overlay*/
