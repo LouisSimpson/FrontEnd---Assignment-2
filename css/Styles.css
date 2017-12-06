@@ -140,7 +140,6 @@ nav a {
 
 li {
   display: block;
-  padding:-1em;
 }
 
 a {
@@ -303,7 +302,7 @@ display: none;
     font-family: monospace;
     display:inline;
     text-transform: uppercase;
-    text-rendering: optimizeLegibility;
+    /*text-rendering: optimizeLegibility;*/
 
   }
 
@@ -535,7 +534,7 @@ body {
   font-family: monospace;
   display:inline;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
+  /*text-rendering: optimizeLegibility;*/
 
 }
 
@@ -677,6 +676,7 @@ p {
   position: absolute;
   left:22.8%;
   bottom:51%;
+  top:209px;
   width:20%;
   height:210px;
 }
@@ -721,7 +721,7 @@ p {
   display: block;
   position: absolute;
   width: 19%;
-  top:26.8%;
+  top:27.2%;
 }
 
 #wordpress:hover {
@@ -733,7 +733,7 @@ p {
 	position: absolute;
 	width: 90%;
 	top:10%;
-	
+
 }
 
 /*start of code for image overlay*/
