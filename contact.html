@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Louis Simpson - Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/Styles.css">
+  <link rel="stylesheet" type="text/css" href="css/API.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="Projects.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">About</a></li>
       </ul>
     </nav>
 
@@ -29,14 +30,39 @@
   </header>
 
   <main>
+    <section class="flex-container">
+      <article class="flex-item">
+        <p>Hi! welcome to my portfolio website! I am a student who is currently studying towards a BSc in computing at De Montfort university.
+          This website was designed and developed to form part of the assessment for my front end web development module, i thought a portfolio website would be a good idea, as it allows for future use when it comes to looking for jobs within the industry after i graduate.</p>
+      </article>  
 
-    <section>
+      <article class="flex-item">
+        <p>Once i graduate, my aim is to work in industy designing and developing custom, unique website for a variety of customers using the latest in HTML, CSS and Javascript plus any new methods and techniques that may arise over the coming years!</p>
+      </article>
+
+      <article class="flex-item">
+        <p>The below search bar is test API code. It allows you to search wikipedia for anything you wish, and it will display some searches on this page for you. My suggestion is to search for a web developer to see what we do!</p>
+      </article>
+    </section> 
+
+    <form id="searchForm">
+    <label for="wikiQuery">Search Wikipedia for: </label>
+    <input id="wikiQuery" type="text" placeholder="Web developer">
+    <input type="submit">
+  </form>
+
+  <ul id="demo"></ul>
+
+  
+
+    <!-- <section> 
       <img id="img1" src="img/pexels-photo.jpg" alt="Gallery member 1">
-      <img id="img2" src="img/pexels-photo (1).jpg" alt="Gallery member 2">
+      <img id="img2" src="img/pexels-photo(1).jpg" alt="Gallery member 2">
       <img id="img3" src="img/pexels-photo-270404.jpeg" alt="Gallery member 3">
-    </section>
+    </section>-->
 
   </main>
+    <script src="js/xmlhttp.js"></script>
     <script src="js/scripts.js"></script>
 
   <footer>

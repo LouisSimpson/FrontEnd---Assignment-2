@@ -2,6 +2,13 @@ body {
   background: linear-gradient(to right, #969599 0%,#969599 66.66%,#969599 66.66%,#77797c 33.33%,#77797c 66.66%);
 }
 
+.flex-container {
+  width:65%;
+  margin-top:10%;
+}
+
+
+
 
 #bannertext {
   /*font-size: 20px;*/
@@ -505,7 +512,8 @@ display: none;
 @media screen and (min-width: 1100px){
 
 body {
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
+  overflow: scroll;
 }
 
 #typewritertext{
@@ -736,9 +744,17 @@ p {
 
 }
 
+.flex-container {
+  display: flex;
+  width:60%;
+  margin-top:10%;
+  margin-left: 3%;
+  flex-direction: column;
+}
+
 /*start of code for image overlay*/
 
-.container {
+/*.container {
   position: relative;
   width: 100%;
 }
@@ -776,7 +792,9 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+}*/
+
+
 
 
 
