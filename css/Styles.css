@@ -2,14 +2,6 @@ body {
   background: linear-gradient(to right, #969599 0%,#969599 66.66%,#969599 66.66%,#77797c 33.33%,#77797c 66.66%);
 }
 
-.flex-container {
-  width:65%;
-  margin-top:10%;
-}
-
-
-
-
 #bannertext {
   /*font-size: 20px;*/
   /*margin-left: 15%;*/
@@ -38,6 +30,14 @@ body {
   padding: .5em;
 
 
+}
+
+#flex-item2 {
+  display: none;
+}
+
+#flex-item {
+  width: 10%;
 }
 
 #github {
@@ -281,7 +281,7 @@ display: none;
 }
 
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 600px){
 
   body {
     overflow-y: hidden;
@@ -300,8 +300,12 @@ display: none;
   }
 
   #statement {
-    display: block;
-  }
+  display: block;
+  position: absolute;
+  width:85%;
+  left: 12%;
+  bottom: 10%;
+}
 
   #bannertext {
     font-size: 60px;
@@ -309,6 +313,7 @@ display: none;
     font-family: monospace;
     display:inline;
     text-transform: uppercase;
+    width:50%;
     /*text-rendering: optimizeLegibility;*/
 
   }
@@ -324,7 +329,7 @@ display: none;
 
   #banner {
     position:absolute;
-    width: 70%;
+    width: 65%;
     top:5%;
     left: 15%;
   }
@@ -426,11 +431,14 @@ display: none;
 
 
   #maintext {
-    position: absolute;
-    left:750px;
-    top:550px;
-    height:200px;
-  }
+  position:absolute;
+  width: 25%;
+  height:200px;
+  left:70%;
+  top:75%;
+
+
+}
 
   p {
     color: white;
@@ -514,6 +522,31 @@ display: none;
 body {
   /*overflow-y: hidden;*/
   overflow: scroll;
+}
+
+/*.flex-container {
+  display:flex;
+  width:65%;
+  margin-top:10%;
+}*/
+
+.flexbox {
+  display: flex;
+  width:60%;
+  margin-top:10%;
+  margin-left:.5%;
+
+}
+
+#flex-item2 {
+  width:35%;
+  height:30%;
+  padding:5px;
+  display: block;
+}
+
+#demo {
+  margin-top: 10%;
 }
 
 #typewritertext{
@@ -750,6 +783,48 @@ p {
   margin-top:10%;
   margin-left: 3%;
   flex-direction: column;
+}
+
+/*API style test*/
+
+ul {
+  list-style-type: none;
+  display: table;
+  width: 90%;
+  border-spacing: 0 10px;
+}
+
+li {
+  display: inline-block;
+}
+
+li strong, li .txt, li .langs {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  display: table-cell;
+  padding-right: 10px;
+}
+
+li .txt {
+  width: 60%;
+  padding-right: 10px;
+}
+
+
+
+#searchForm {
+  position: absolute;
+  top: 87%;
+  left:5%;
+}
+
+#demo {
+  position: absolute;
+  top:70%;
+  width:60%;
 }
 
 /*start of code for image overlay*/
