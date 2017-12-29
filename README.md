@@ -32,11 +32,12 @@ The following images show initial sketches that were created to show the general
 
 ### Mobile view
 
-<img src="https://preview.ibb.co/gPcJZw/IMG_1028.jpg" alt="IMG_1028" border="0">
+<img src="https://preview.ibb.co/fYL5Wb/IMG_1034.jpg" alt="IMG_1034" border="0">
+
 
 ### Desktop view
 
-<img src="https://preview.ibb.co/f3Jsuw/IMG_1029.jpg" alt="IMG_1029" border="0">
+<img src="https://preview.ibb.co/n1gqxG/IMG_1033.jpg" alt="IMG_1033" border="0">
 
 (The tablet view was to be the same as the dektop view but with scaling added using a media query to ensure that responsive design was achieved)
 
