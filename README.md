@@ -52,6 +52,8 @@ As stated in the assignment brief the website was to be developed using the mobi
 
 the follwoing link is my reason for the decided break points: http://tangledindesign.com/deciding-what-responsive-breakpoints-to-use/
 
+Other resource: https://www.impactbnd.com/examples-of-effective-mobile-website-design
+
 ## Semantic elements
 
 For this module we were required to use correct HTML5 semantic elements, this includes the use of tags such as nav, article and section
@@ -65,6 +67,8 @@ An example of the use of these can be seen below:
     of mine.</p>
     </article>
   </section>
+  
+ Resource: https://webflow.com/blog/html5-semantic-elements-and-webflow-the-essential-guide
   
 ## Advanced CSS styling
 
@@ -87,6 +91,7 @@ This can be seen below:
   display: block;
 }
 
+Resource: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ### Animations
 
 I also used keyframes in order to acheive a typing effect onn my mobile view of the website, this cann be seen below:
@@ -101,6 +106,8 @@ I also used keyframes in order to acheive a typing effect onn my mobile view of 
   50% { border-color: orange}
 
 }
+
+Resource: https://css-tricks.com/snippets/css/typewriter-effect/
 
 ## JavaScript
 
@@ -150,6 +157,8 @@ Resource: https://www.usability.gov/what-and-why/information-architecture.html
 ### Navigation
 
 I also tried to make the navigation simple yet effective, i wanted to make sure it was easy for any user to get aorund the website with ease. This was also acheived by implementing a site map at the bottom of the site.
+
+Resource: 
 
 ## Validation
 
