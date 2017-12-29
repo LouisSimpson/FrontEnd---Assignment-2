@@ -2,6 +2,10 @@ body {
   background: linear-gradient(to right, #969599 0%,#969599 66.66%,#969599 66.66%,#77797c 33.33%,#77797c 66.66%);
 }
 
+body {
+  overflow: hidden;
+}
+
 #bannertext {
   /*font-size: 20px;*/
   /*margin-left: 15%;*/
