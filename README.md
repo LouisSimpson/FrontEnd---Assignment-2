@@ -95,7 +95,7 @@ This can be seen below:
 Resource: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ### Animations
 
-I also used keyframes in order to acheive a typing effect onn my mobile view of the website, this cann be seen below:
+I also used keyframes in order to acheive a typing effect on my mobile view of the website, this can be seen below:
 
 @keyframes typing {
   from { width: 0 }
