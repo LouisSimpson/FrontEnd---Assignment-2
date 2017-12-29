@@ -186,6 +186,10 @@ I also developed some basic skills in the use of JavaScript and JSON use. This i
 
 My confidecne with the use of GitHub to clone repos etc for my work has also greatly increased during the module.
 
+## Things not fully achieved
 
+There were things that i was not happy with for the website, i was not 100% happy with the responsive design and had issues with this changing after every commit to git hub. It would be okay before a commit and then it wouldnt work as it should once cloned again.
+
+I was also unable to get the "position:Fixed" CSS attribute to work for the footer for some reason
 
 
